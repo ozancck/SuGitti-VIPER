@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3112CC5C2C810C0D00F50143 /* WaterCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC5B2C810C0D00F50143 /* WaterCut.swift */; };
+		3112CC5F2C810C5C00F50143 /* WaterCutListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC5E2C810C5C00F50143 /* WaterCutListViewController.swift */; };
+		3112CC612C810C8D00F50143 /* WaterCutListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC602C810C8D00F50143 /* WaterCutListPresenter.swift */; };
+		3112CC632C810CA000F50143 /* WaterCutListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC622C810CA000F50143 /* WaterCutListInteractor.swift */; };
+		3112CC652C810CAE00F50143 /* WaterCutListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC642C810CAE00F50143 /* WaterCutListRouter.swift */; };
+		3112CC682C810CC800F50143 /* WaterCutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC672C810CC800F50143 /* WaterCutDetailViewController.swift */; };
+		3112CC6A2C810CD600F50143 /* WaterCutDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC692C810CD600F50143 /* WaterCutDetailPresenter.swift */; };
+		3112CC6C2C810CE300F50143 /* WaterCutDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC6B2C810CE300F50143 /* WaterCutDetailInteractor.swift */; };
+		3112CC6E2C810CF300F50143 /* WaterCutDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC6D2C810CF300F50143 /* WaterCutDetailRouter.swift */; };
+		3112CC702C81113F00F50143 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC6F2C81113F00F50143 /* NetworkService.swift */; };
+		3112CC732C81156700F50143 /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 3112CC722C81156700F50143 /* SVProgressHUD */; };
 		319949A32C810A6100530AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319949A22C810A6100530AEE /* AppDelegate.swift */; };
 		319949A52C810A6100530AEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319949A42C810A6100530AEE /* SceneDelegate.swift */; };
 		319949AA2C810A6100530AEE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 319949A92C810A6100530AEE /* Base */; };
@@ -35,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3112CC5B2C810C0D00F50143 /* WaterCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCut.swift; sourceTree = "<group>"; };
+		3112CC5E2C810C5C00F50143 /* WaterCutListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutListViewController.swift; sourceTree = "<group>"; };
+		3112CC602C810C8D00F50143 /* WaterCutListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutListPresenter.swift; sourceTree = "<group>"; };
+		3112CC622C810CA000F50143 /* WaterCutListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutListInteractor.swift; sourceTree = "<group>"; };
+		3112CC642C810CAE00F50143 /* WaterCutListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutListRouter.swift; sourceTree = "<group>"; };
+		3112CC672C810CC800F50143 /* WaterCutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutDetailViewController.swift; sourceTree = "<group>"; };
+		3112CC692C810CD600F50143 /* WaterCutDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutDetailPresenter.swift; sourceTree = "<group>"; };
+		3112CC6B2C810CE300F50143 /* WaterCutDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutDetailInteractor.swift; sourceTree = "<group>"; };
+		3112CC6D2C810CF300F50143 /* WaterCutDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCutDetailRouter.swift; sourceTree = "<group>"; };
+		3112CC6F2C81113F00F50143 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		3199499F2C810A6100530AEE /* SuGitti-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuGitti-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		319949A22C810A6100530AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319949A42C810A6100530AEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3112CC732C81156700F50143 /* SVProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3112CC5D2C810C4A00F50143 /* WaterCutList */ = {
+			isa = PBXGroup;
+			children = (
+				3112CC5E2C810C5C00F50143 /* WaterCutListViewController.swift */,
+				3112CC602C810C8D00F50143 /* WaterCutListPresenter.swift */,
+				3112CC622C810CA000F50143 /* WaterCutListInteractor.swift */,
+				3112CC642C810CAE00F50143 /* WaterCutListRouter.swift */,
+			);
+			path = WaterCutList;
+			sourceTree = "<group>";
+		};
+		3112CC662C810CBF00F50143 /* WaterCutDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3112CC672C810CC800F50143 /* WaterCutDetailViewController.swift */,
+				3112CC692C810CD600F50143 /* WaterCutDetailPresenter.swift */,
+				3112CC6B2C810CE300F50143 /* WaterCutDetailInteractor.swift */,
+				3112CC6D2C810CF300F50143 /* WaterCutDetailRouter.swift */,
+			);
+			path = WaterCutDetail;
+			sourceTree = "<group>";
+		};
 		319949962C810A6100530AEE = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +171,8 @@
 		319949D22C810ABB00530AEE /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				319949AD2C810A6200530AEE /* LaunchScreen.storyboard */,
 				319949A82C810A6100530AEE /* Main.storyboard */,
+				319949AD2C810A6200530AEE /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -144,6 +188,7 @@
 		319949D52C810AEA00530AEE /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3112CC6F2C81113F00F50143 /* NetworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -151,6 +196,8 @@
 		319949D62C810AF300530AEE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3112CC662C810CBF00F50143 /* WaterCutDetail */,
+				3112CC5D2C810C4A00F50143 /* WaterCutList */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -158,6 +205,8 @@
 		319949D72C810AFD00530AEE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				319949DA2C810B8700530AEE /* Extensions */,
+				319949D92C810B8100530AEE /* Models */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -170,6 +219,21 @@
 				319949A42C810A6100530AEE /* SceneDelegate.swift */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		319949D92C810B8100530AEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3112CC5B2C810C0D00F50143 /* WaterCut.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		319949DA2C810B8700530AEE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +252,9 @@
 			dependencies = (
 			);
 			name = "SuGitti-VIPER";
+			packageProductDependencies = (
+				3112CC722C81156700F50143 /* SVProgressHUD */,
+			);
 			productName = "SuGitti-VIPER";
 			productReference = 3199499F2C810A6100530AEE /* SuGitti-VIPER.app */;
 			productType = "com.apple.product-type.application";
@@ -260,6 +327,9 @@
 				Base,
 			);
 			mainGroup = 319949962C810A6100530AEE;
+			packageReferences = (
+				3112CC712C81156700F50143 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+			);
 			productRefGroup = 319949A02C810A6100530AEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -305,6 +375,16 @@
 			files = (
 				319949A32C810A6100530AEE /* AppDelegate.swift in Sources */,
 				319949A52C810A6100530AEE /* SceneDelegate.swift in Sources */,
+				3112CC6A2C810CD600F50143 /* WaterCutDetailPresenter.swift in Sources */,
+				3112CC652C810CAE00F50143 /* WaterCutListRouter.swift in Sources */,
+				3112CC612C810C8D00F50143 /* WaterCutListPresenter.swift in Sources */,
+				3112CC5F2C810C5C00F50143 /* WaterCutListViewController.swift in Sources */,
+				3112CC6C2C810CE300F50143 /* WaterCutDetailInteractor.swift in Sources */,
+				3112CC5C2C810C0D00F50143 /* WaterCut.swift in Sources */,
+				3112CC682C810CC800F50143 /* WaterCutDetailViewController.swift in Sources */,
+				3112CC6E2C810CF300F50143 /* WaterCutDetailRouter.swift in Sources */,
+				3112CC702C81113F00F50143 /* NetworkService.swift in Sources */,
+				3112CC632C810CA000F50143 /* WaterCutListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +731,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3112CC712C81156700F50143 /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3112CC722C81156700F50143 /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3112CC712C81156700F50143 /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 319949972C810A6100530AEE /* Project object */;
 }
